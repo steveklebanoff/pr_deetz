@@ -10,7 +10,7 @@ This chrome extension shows the associated pull requests directly to the commit 
 
 # Installation
 
-Install from the [Chrome Store](https://chrome.google.com/webstore/detail/prdeetz/mjljchhaghlgdbpmnangcifkfdccomjc) here. 
+Install from the [Chrome Store](https://chrome.google.com/webstore/detail/prdeetz/mjljchhaghlgdbpmnangcifkfdccomjc). 
 
 If you'd like to develop the extension, see instructions below
 
