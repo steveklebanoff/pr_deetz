@@ -2,9 +2,10 @@
 
 When viewing a commit, it can be super useful to know what pull request the commit was introduced in.
 
-This is possible through github. On the commit page, next to the branch name, there is a link to a Pull Request number.  This PR expands on this functionality by:
-- Showing actual names of the Pull Requests
-- Showing any issues that reference the commit
+This is possible through github for PRs that have been merged. On the commit page, next to the branch names, there is a link to a pull request number.  This extension expands on this functionality by:
+- Shows pull requests that haven't been merged yet
+- Shows actual names of the Pull Requests
+- Shows any issues that reference the commit
 
 ![new way](https://www.evernote.com/shard/s318/sh/6fd2522f-28fd-470e-b7ba-898794734bab/85172cae3102dc657f6045b7d71ea073/deep/0/Screenshot%207/15/16,%2012:27%20PM.jpg)
 
