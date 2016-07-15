@@ -1,8 +1,23 @@
 # PR Deetz
 
-Chrome extension for github which shows you every Pull Request a commit is in.
+Chrome extension for github which shows you every pull request a commit is in.
+
+When viewing a commit, it can be super useful to know what pull request the commit was introduced in.
+
+This is possible through github, but it took a few clicks and wasn't clear that it was even a feature.
+
+### Old Way:
+![old way](http://g.recordit.co/Xp1DVhLHUT.gif)
+
+This chrome extension brings the pull requests directly to the commit page.
+
+### With Chrome Extension
+![new way](https://www.evernote.com/shard/s318/sh/6fd2522f-28fd-470e-b7ba-898794734bab/85172cae3102dc657f6045b7d71ea073/deep/0/Screenshot%207/15/16,%2012:27%20PM.jpg)
+
 
 ## How to run development environment
+
+Boilerplate from https://github.com/schovi/webpack-chrome-extension
 
 First, run `npm install`.
 
@@ -14,11 +29,7 @@ Now, you should do this before editing any code to see how it works:
 4. click on `Load unpacked extension`
 5. add REPOSITORY_DIRECTORY/build
 6. Now you can check background script via link in extension `Inspect views: background page` and you will see some messages in console
-7. Navigate to any http or **https** page and open development tools and console. You can see messages from content scripts.
-8. Find extension icon (puzzle image) right from adress bar.
-  1. Click with left mouse button to show html content
-  2. Click with right mouse button and select `Inspect Popup`. Then in console you can see some messages
-9. You can edit your codebase with almost 100% hot/full reload support.
+7. Navigate to a commit on github and you should now see issue information appear.
 
 ## How to build extension
 
