@@ -8,6 +8,11 @@ This chrome extension shows the associated pull requests directly to the commit 
 
 ![new way](https://www.evernote.com/shard/s318/sh/6fd2522f-28fd-470e-b7ba-898794734bab/85172cae3102dc657f6045b7d71ea073/deep/0/Screenshot%207/15/16,%2012:27%20PM.jpg)
 
+# Installation
+
+Install from the [Chrome Store](https://chrome.google.com/webstore/detail/prdeetz/mjljchhaghlgdbpmnangcifkfdccomjc) here. 
+
+If you'd like to develop the extension, see instructions below
 
 ## How to run development environment
 
@@ -22,8 +27,7 @@ Now, you should do this before editing any code to see how it works:
 3. check `Developer mode`
 4. click on `Load unpacked extension`
 5. add REPOSITORY_DIRECTORY/build
-6. Now you can check background script via link in extension `Inspect views: background page` and you will see some messages in console
-7. Navigate to a commit on github and you should now see issue information appear.
+6. Navigate to a commit on github and you should now see issue information appear.
 
 ## How to build extension
 
