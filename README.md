@@ -1,10 +1,8 @@
 # PR Deetz
 
-Chrome extension for github which shows you every pull request a commit is in.
-
 When viewing a commit, it can be super useful to know what pull request the commit was introduced in.
 
-This is possible through github. You can achieve this by searching the repo for a commit hash, and then filtering by Issues. This works, but [takes a few clicks and isn't obvious](http://g.recordit.co/Xp1DVhLHUT.gif).  
+This is possible through github. You can achieve this by searching the repo for a commit hash, and then filtering by Issues. This works, but [takes a few clicks and isn't obvious](http://recordit.co/Xp1DVhLHUT).  
 
 This chrome extension shows the associated pull requests directly to the commit page.
 
