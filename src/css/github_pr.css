@@ -1,0 +1,29 @@
+.pr-deetz-container {
+  padding: 8px;
+  margin-right: -8px;
+  margin-left: -8px;
+  background: #d8e6ec;
+  border-top: 1px solid #d8e6ec;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 12px;
+}
+.pr-deetz-issue {
+  margin-left: 5px;
+}
+.pr-deetz-error {
+  margin-top: 5px;
+}
+.pr-deetz-error-highlight {
+  color: red;
+  font-weight: bold;
+}
+.pr-deetz-error-message {
+  margin-bottom: 2px;
+}
+.pr-deetz-error-suggestion {
+  font-size: 12px;
+}
+.pr-deetz-error-suggestion-link {
+  margin-left: 4px;
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "commonjs": true
+  },
+  "globals": {
+    "chrome": true
+  }
+}

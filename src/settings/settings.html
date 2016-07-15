@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PR Deetz Options</title>
+  <style>
+    body {
+      padding: 10px;
+    }
+    .explanation {
+      margin-bottom: 15px;
+    }
+    #save-status {
+      color: green;
+      margin: 10px 0px;
+    }
+    #save {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="save-status"></div>
+
+  <div class='explanation'>
+    You will have to add a Github Auth Token if you want to find issues in private repos.
+    You can generate one <a href="https://github.com/settings/tokens" target="_blank">here</a>.
+  </div>
+
+  <div id='auth-form-loading'>
+    Loading...
+  </div>
+  <div id='auth-form' style="display: none;">
+    <label>
+      Github Auth Token:
+    </label>
+    <input type='text' id='auth-token'>
+    <div>
+      <button id="save">Save</button>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<script src='settings.js'></script>
