@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "PR Deetz",
-  "homepage_url": "http://www.headynation.com",
+  "homepage_url": "https://github.com/steveklebanoff/pr_deetz",
   "content_scripts": [
     {
       "matches": ["https://github.com/*/*/commit/*"],
